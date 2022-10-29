@@ -1,0 +1,47 @@
+﻿[
+	{
+		"link": "README.md",
+		"char_ofs": 0,
+		"byte_ofs": 0
+	},
+	{
+		"link": "1-intro/README.md",
+		"char_ofs": 276,
+		"byte_ofs": 526
+	},
+	{
+		"link": "2-installation/README.md",
+		"char_ofs": 562,
+		"byte_ofs": 1182
+	},
+	{
+		"link": "2-installation/1-preparation.md",
+		"char_ofs": 571,
+		"byte_ofs": 1200
+	},
+	{
+		"link": "2-installation/2-install.md",
+		"char_ofs": 750,
+		"byte_ofs": 1540
+	},
+	{
+		"link": "3-config-run/README.md",
+		"char_ofs": 1277,
+		"byte_ofs": 2401
+	},
+	{
+		"link": "3-config-run/1-hotkey-startup.md",
+		"char_ofs": 1290,
+		"byte_ofs": 2429
+	},
+	{
+		"link": "3-config-run/2-run-switch.md",
+		"char_ofs": 1716,
+		"byte_ofs": 3188
+	},
+	{
+		"link": "4-sw-relay.md",
+		"char_ofs": 2277,
+		"byte_ofs": 4211
+	}
+]
