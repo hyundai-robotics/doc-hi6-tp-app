@@ -1,6 +1,12 @@
-﻿# 4. sw 릴레이에 의한 모니터링과 제어
+﻿# 4. S 릴레이에 의한 모니터링과 제어
 
-내장 PLC 릴레이 중, sw960~sw963은 앱 실행상태의 모니터링과 제어에 사용됩니다. 이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 Xpanel 등의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
+내장 PLC의 S 릴레이에는 앱 실행상태를 모니터링하고 제어하는 GETSET_TP_APP 서비스가 있습니다. <br>
+
+[3.4 S 릴레이](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/README)
+
+[3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/6-slot-tp-app)
+<br><br>
+이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
 
 
 | S offset| field  | 설명                                              | type |

@@ -11,4 +11,4 @@
   * [3.1 단축키(hotkey)와 실행방식](3-config-run/1-hotkey-startup.md)
   * [3.2 실행과 전환](3-config-run/2-run-switch.md)
 
-* [4. sw 릴레이에 의한 모니터링과 제어](4-sw-relay.md)
+* [4. S 릴레이에 의한 모니터링과 제어](4-sw-relay.md)
