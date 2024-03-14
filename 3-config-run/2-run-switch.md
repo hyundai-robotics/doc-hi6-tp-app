@@ -1,26 +1,26 @@
-﻿# 3.2. 실행과 전환
+﻿# 3.2. execution and switching
 
-앱을 선택한 후, \[F4:run\] 버튼을 클릭하면, 해당 앱이 실행됩니다.
+After selecting the app, click the `[F4:run]` button to launch the app.
 
 ![](../_assets/3_2_run.png)
 
 <br/>
 
-앱을 종료하지 않은 채로 티치펜던트 본 화면으로 전환하려면 \[shift+R..\] 키를 1초 정도 길게 누르십시오.
+Press and hold the `[SHIFT+R..]` key for about a second to switch to the TeachPendant main screen without shutting down the app.
 
-본 화면에서 상단 제목막대의 우측에 ![](../_assets/3_3_switch_c.png) 아이콘이 보입니다. 이것은 백그라운드에 1개 이상의 앱이 실행되고 있다는 의미입니다.
+On this screen, you see the ![](.../_assets/3_switch_c.png) icon on the right side of the top title bar, which means there is more than one app running in the background.
 
 ![](../_assets/3_3_switch_b.png)
 
 <br/>
 
-다시 한번 \[shift+R..\] 키를 누르면 앱 전환 대화상자가 나타나는데, 화살표 좌/우 키로 아이콘을 선택한 후 \[ENTER\] 키를 누르면 해당 앱이 전면으로 나타나게 됩니다.
+Once again, pressing the `[SHIFT+R..]` key will display the app switch dialog box, select the icon with the left/right arrow and press the `[ENTER]` key to bring the app to the front.
 
 ![](../_assets/3_3_switch_d.png)
 
 <br/>
 
-앱을 종료하려면 해당 앱의 종료 기능을 사용하십시오. 예를 들어 Xpanel은 '진단' 화면의 우상단에 종료 버튼이 있습니다.
+To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Diagnostics` screen.
 
 ![](../_assets/3_3_exit.png)
 

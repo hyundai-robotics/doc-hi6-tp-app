@@ -1,10 +1,8 @@
-﻿# 2.1 준비
+﻿# 2.1 Preparation
 
-Hi6 앱의 설치파일은 아래의 예와 같이 몇 개의 파일로 구성되어 있습니다.
-
-티치펜던트 앱인 Cimon Xpanel을 예로 들어 설명하겠습니다.
-
-Hi6 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해 넣으십시오. 
+The Hi6 app installation file consists of several files, as shown in the example below.
+Let me take Cimon Xpanel, the Teach Pendant app, as an example.
+Copy the installation folder of the Hi6 app to the path below in USB memory.
 
 /hi6/apps/
 

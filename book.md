@@ -1,141 +1,146 @@
-﻿# Hi6 로봇제어기 기능설명서 - Teach Pendant 앱(App)
+﻿# Hi6 Robot Controller Function Manual - Teach Pendant App
 
 {% hint style="warning" %}
-본 제품 설명서에서 제공되는 정보는 현대로보틱스의 자산입니다.
+The information presented in this manual is the property of HD Hyundai Robotics.
 
-현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
+The manual may neither be copied, in part or in full, nor redistributed without prior written consent from HD Hyundai Robotics.
 
-
-
-본 설명서는 사전 예고 없이 변경될 수 있습니다.
+It may neither be provided to any third party nor used for any other purposes.
 
 
 
-**Copyright ⓒ 2022 by Hyundai Robotics**
+HD Hyundai Robotics reserves the right to modify this document without prior notification.
+
+
+
+**Copyright ⓒ 2024 by HD Hyundai Robotics**
 {% endhint %}
-# 1. 개요
+# 1. Overview
 
-본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
-- 현대 Hi6 로봇제어기의 기본 조작법
+In order to understand this manual well, you must have the following knowledge.
 
+- [Basic Operation of Hyundai Hi6 Robot Controller](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/README)
 
+<br>
 
+Various settings, teaching, playback, and various service functions of the robot are installed as basic functions of the Hi6 controller. Additional functions that are not included in the basic function or functions optimized for a specific purpose are separately installed as add-on software, which is called the Hi6 app, and the software installed and executed on the Teach Pendant is classified as the Teach Pendant app.
+# 2. Installation
+# 2.1 Preparation
 
-로봇의 각종 설정과 교시, 재생, 다양한 서비스 기능들은 Hi6 제어기의 기본 기능으로서 탑재되어 있습니다. 기본 기능에 포함되지 않은 부가적인 기능들, 혹은 특정 용도에 최적화된 기능들이 별도로 설치하는 부가 소프트웨어로 제공되기도 하는데 이를 Hi6 앱(App)이라고 하며, 이 중 티치펜던트에 설치되어 실행되는 소프트웨어를 Teach Pendant 앱으로 분류합니다. 
-# 2. 설치
-
-# 2.1 준비
-
-Hi6 앱의 설치파일은 아래의 예와 같이 몇 개의 파일로 구성되어 있습니다.
-
-티치펜던트 앱인 Cimon Xpanel을 예로 들어 설명하겠습니다.
-
-Hi6 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해 넣으십시오. 
+The Hi6 app installation file consists of several files, as shown in the example below.
+Let me take Cimon Xpanel, the Teach Pendant app, as an example.
+Copy the installation folder of the Hi6 app to the path below in USB memory.
 
 /hi6/apps/
 
 ![](../_assets/2_1_folder.png)
 
-# 2.2 설치
+# 2.2 Install
 
-1) 준비한 USB 메모리를 티치펜던트에 장착합니다.
+1) Install the prepared USB memory into the Teach Pendant.
 
-2) "서비스 - 10:App" 메뉴를 선택합니다.
+2) Select the `Service - 10:App` menu.
 
-3) 제목 막대가 App - USB가 될 때까지 \[F1:위치\] 버튼을 클릭합니다.
+3) Click the `[F1:Location]` button until the title bar becomes `App - USB`.
 
 ![](../_assets/2_2_app.png)
 
 <br/>
 
-4) \[F4: run\] 버튼을 클릭해 hi6 installer를 실행합니다.
+4) Click the `[F4:run]` button to run the hi6 installer.
 
 ![](../_assets/2_3_installer.png)
 
 <br/>
 
-5) \[START\] 버튼을 클릭하면 설치가 진행됩니다. log 제일 하단에 Completed. 라고 표시되면 설치가 정상적으로 완료된 것입니다.
+5) Click the `[START]` button to proceed with the installation. If it says Completed at the bottom of the log, the installation has completed successfully.
 
 ![](../_assets/2_3_installer_b.png)
 
 <br/>
 
-6) \[EXIT\] 버튼을 클릭해 종료합니다.
+6) Click the `[EXIT]` button to exit.
 
-7) 제목 막대가 App - TP가 될 때까지 \[F1:위치\] 버튼을 클릭합니다. Xpanel 항목이 새로 생긴 것을 볼 수 있습니다.
+7) Click the `[F1:Location]` button until the title bar becomes `App - TP`, you can see the new Xpanel item.
 
 ![](../_assets/2_4_installed.png)
 
-<br/>        
-# 3. 설정과 실행
+<br/>
+# 3. Configuration and run
+# 3.1 hotkey and execution way
 
-# 2.3 단축키(hotkey)와 실행방식
-
-자주 사용하는 앱에는 단축키를 할당하면, 어떤 화면에서든 키조작만으로 실행할 수 있어 편리합니다.
-앱을 선택한 후, \[F2:hotkey\] 버튼을 클릭합니다.
+If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
+Select the app and click the `[F2:hotkey]` button.
 
 ![](../_assets/3_1_hotkey.png)
 
 <br/>
 
-hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축키를 누른 후 \[ENTER\] 키로 설정을 완료하십시오.
+In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` and complete the setting with the `[ENTER]` key.
 
 ![](../_assets/3_1_hotkey_b.png)
 
 <br/>
 
-\[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, Hi6 제어기가 부팅할 때 앱이 자동으로 실행합니다.
+If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the Hi6 controller boots.
 
-다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.
-# 3.2. 실행과 전환
+If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.
+# 3.2. execution and switching
 
-앱을 선택한 후, \[F4:run\] 버튼을 클릭하면, 해당 앱이 실행됩니다.
+After selecting the app, click the `[F4:run]` button to launch the app.
 
 ![](../_assets/3_2_run.png)
 
 <br/>
 
-앱을 종료하지 않은 채로 티치펜던트 본 화면으로 전환하려면 \[shift+R..\] 키를 1초 정도 길게 누르십시오.
+Press and hold the `[SHIFT+R..]` key for about a second to switch to the TeachPendant main screen without shutting down the app.
 
-본 화면에서 상단 제목막대의 우측에 ![](../_assets/3_3_switch_c.png) 아이콘이 보입니다. 이것은 백그라운드에 1개 이상의 앱이 실행되고 있다는 의미입니다.
+On this screen, you see the ![](.../_assets/3_switch_c.png) icon on the right side of the top title bar, which means there is more than one app running in the background.
 
 ![](../_assets/3_3_switch_b.png)
 
 <br/>
 
-다시 한번 \[shift+R..\] 키를 누르면 앱 전환 대화상자가 나타나는데, 화살표 좌/우 키로 아이콘을 선택한 후 \[ENTER\] 키를 누르면 해당 앱이 전면으로 나타나게 됩니다.
+Once again, pressing the `[SHIFT+R..]` key will display the app switch dialog box, select the icon with the left/right arrow and press the `[ENTER]` key to bring the app to the front.
 
 ![](../_assets/3_3_switch_d.png)
 
 <br/>
 
-앱을 종료하려면 해당 앱의 종료 기능을 사용하십시오. 예를 들어 Xpanel은 '진단' 화면의 우상단에 종료 버튼이 있습니다.
+To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Diagnostics` screen.
 
 ![](../_assets/3_3_exit.png)
 
 <br/>
-# 4. sw 릴레이에 의한 모니터링과 제어
+# 4. Monitoring and control by S relay
 
-내장 PLC 릴레이 중, sw960~sw963은 앱 실행상태의 모니터링과 제어에 사용됩니다. 이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 Xpanel 등의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
+The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
+
+[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/README)
+
+[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
+<br><br>
+
+This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the Hi6 controller.
 
 
-| S offset| field  | 설명                                              | type |
-| ------- | ------ | ------------------------------------------------- | ---- | 
-| 0       | command| GETSET_TP_APP (140)                               | s2   |
-| 2       | get    | 현재 TP app의 단축키 번호 (1~9)                    | s2   |
-| 4       | set    | 상태를 읽거나 제어할 대상 TP app의 단축키 번호 (1~9) | s2   |
-| 6       | get    | 대상 TP app의 상태 현재값<br>(-1=없음, 0=미실행, 1=활성, 2=비활성) | s2   |
-| 8       | set    | 대상 TP app 상태 제어<br>(0:동작없음, 1:활성, 2:비활성, 8: 실행, 9:강제종료)<br>* 값이 변할 때마다 1번씩만 수행됨.  | s2   |
+| S offset| field  |                   description                    | type |
+| ------- | ------ | ------------------------------------------------ | ---- |
+| 0       | command| GETSET_TP_APP (140)                              | s2   |
+| 2       | get    | hot-key Number for current TP app (1 to 9)  | s2   |
+| 4       | set    | hot-key number (1 to 9) of the TP app to read or control the state | s2 |
+| 6       | get    | status of target TP app Current value<br> (-1=none, 0=not running, 1=active, 2=inactive) | s2  |
+| 8       | set    | control target TP app status.<br> (0: No action, 1: Active, 2: Inactive, 8: Run, 9: Forced shutdown)<br>* This is done only once every time the value changes. | s2 |
 
 <hr/><br/><br/>
 
-예를 들어 아래 2개의 앱이 실행되고 있다고 가정합시다.
+For example, let's say the below 2 apps are running, and set 140 in `S2020`.
 
-* Xpanel : Ctrl+3 \(활성상태\)
-* RoboCare : Ctrl+4
+* `Xpanel` : `Ctrl+3` (Active state)
+* `RoboCare` : `Ctrl+4`
 
-현재 화면 전면에 Xpanel이 실행되고 있다면, sw960 값은 3입니다.
+If `Xpanel` is currently running on the front of the screen, the value of `S2022` is 3.
 
-sw961에 4를 설정하면 sw962의 값은 RoboCare의 상태입니다. RoboCare는 현재 실행되고 있지만 비활성상태이므로 sw962는 2입니다.
+If I set 4 in `S2024`, the value of `S2026` is the state of `RoboCare`. `RoboCare` is currently running but is inactive, so `S2026` is 2.
 
-sw962의 값이 1이 아닌 값일 때, 이를 1로 변경하면 Xpanel이 백그라운드로 비활성화되고 RoboCare가 전면으로 활성화됩니다. 이 값을 9로 변경하면 RoboCare는 강제종료됩니다.
+If the value of `S2028` is a non-1 value, changing it to 1 disables `Xpanel` to the background and `RoboCare` to the front. Changing this value to 9 forces `RoboCare` to shut down.

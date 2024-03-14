@@ -1,2 +1,1 @@
-﻿# 2. 설치
-
+﻿# 2. Installation

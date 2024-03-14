@@ -1,18 +1,18 @@
-﻿# 2.3 단축키(hotkey)와 실행방식
+﻿# 3.1 hotkey and execution way
 
-자주 사용하는 앱에는 단축키를 할당하면, 어떤 화면에서든 키조작만으로 실행할 수 있어 편리합니다.
-앱을 선택한 후, \[F2:hotkey\] 버튼을 클릭합니다.
+If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
+Select the app and click the `[F2:hotkey]` button.
 
 ![](../_assets/3_1_hotkey.png)
 
 <br/>
 
-hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축키를 누른 후 \[ENTER\] 키로 설정을 완료하십시오.
+In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` and complete the setting with the `[ENTER]` key.
 
 ![](../_assets/3_1_hotkey_b.png)
 
 <br/>
 
-\[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, Hi6 제어기가 부팅할 때 앱이 자동으로 실행합니다.
+If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the Hi6 controller boots.
 
-다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.
+If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.

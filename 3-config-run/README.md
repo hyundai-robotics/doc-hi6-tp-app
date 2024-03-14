@@ -1,2 +1,1 @@
-﻿# 3. 설정과 실행
-
+﻿# 3. Configuration and run

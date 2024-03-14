@@ -1,31 +1,32 @@
-﻿# 4. S 릴레이에 의한 모니터링과 제어
+﻿# 4. Monitoring and control by S relay
 
-내장 PLC의 S 릴레이에는 앱 실행상태를 모니터링하고 제어하는 GETSET_TP_APP 서비스가 있습니다. <br>
+The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
 
-[3.4 S 릴레이](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/README)
+[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/README)
 
-[3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/6-slot-tp-app)
+[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
-이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
+
+This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the Hi6 controller.
 
 
-| S offset| field  | 설명                                              | type |
-| ------- | ------ | ------------------------------------------------- | ---- | 
-| 0       | command| GETSET_TP_APP (140)                               | s2   |
-| 2       | get    | 현재 TP app의 단축키 번호 (1~9)                    | s2   |
-| 4       | set    | 상태를 읽거나 제어할 대상 TP app의 단축키 번호 (1~9) | s2   |
-| 6       | get    | 대상 TP app의 상태 현재값<br>(-1=없음, 0=미실행, 1=활성, 2=비활성) | s2   |
-| 8       | set    | 대상 TP app 상태 제어<br>(0:동작없음, 1:활성, 2:비활성, 8: 실행, 9:강제종료)<br>* 값이 변할 때마다 1번씩만 수행됨.  | s2   |
+| S offset| field  |                   description                    | type |
+| ------- | ------ | ------------------------------------------------ | ---- |
+| 0       | command| GETSET_TP_APP (140)                              | s2   |
+| 2       | get    | hot-key Number for current TP app (1 to 9)  | s2   |
+| 4       | set    | hot-key number (1 to 9) of the TP app to read or control the state | s2 |
+| 6       | get    | status of target TP app Current value<br> (-1=none, 0=not running, 1=active, 2=inactive) | s2  |
+| 8       | set    | control target TP app status.<br> (0: No action, 1: Active, 2: Inactive, 8: Run, 9: Forced shutdown)<br>* This is done only once every time the value changes. | s2 |
 
 <hr/><br/><br/>
 
-예를 들어 아래 2개의 앱이 실행되고 있고, S2020에 140을 설정했다고 가정합시다.
+For example, let's say the below 2 apps are running, and set 140 in `S2020`.
 
-* Xpanel : Ctrl+3 \(활성상태\)
-* RoboCare : Ctrl+4
+* `Xpanel` : `Ctrl+3` (Active state)
+* `RoboCare` : `Ctrl+4`
 
-현재 화면 전면에 Xpanel이 실행되고 있다면, S2022의 값은 3입니다.
+If `Xpanel` is currently running on the front of the screen, the value of `S2022` is 3.
 
-S2024에 4를 설정하면 S2026의 값은 RoboCare의 상태입니다. RoboCare는 현재 실행되고 있지만 비활성상태이므로 S2026은 2입니다.
+If I set 4 in `S2024`, the value of `S2026` is the state of `RoboCare`. `RoboCare` is currently running but is inactive, so `S2026` is 2.
 
-S2028의 값이 1이 아닌 값일 때, 이를 1로 변경하면 Xpanel이 백그라운드로 비활성화되고 RoboCare가 전면으로 활성화됩니다. 이 값을 9로 변경하면 RoboCare는 강제종료됩니다.
+If the value of `S2028` is a non-1 value, changing it to 1 disables `Xpanel` to the background and `RoboCare` to the front. Changing this value to 9 forces `RoboCare` to shut down.
