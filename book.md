@@ -114,9 +114,15 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 ![](../_assets/3_3_exit.png)
 
 <br/>
-# 4. sw 릴레이에 의한 모니터링과 제어
+# 4. S 릴레이에 의한 모니터링과 제어
 
-내장 PLC 릴레이 중, sw960~sw963은 앱 실행상태의 모니터링과 제어에 사용됩니다. 이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 Xpanel 등의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
+내장 PLC의 S 릴레이에는 앱 실행상태를 모니터링하고 제어하는 GETSET_TP_APP 서비스가 있습니다. <br>
+
+[3.4 S 릴레이](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/README)
+
+[3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/6-slot-tp-app)
+<br><br>
+이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
 
 
 | S offset| field  | 설명                                              | type |
@@ -129,13 +135,13 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 
 <hr/><br/><br/>
 
-예를 들어 아래 2개의 앱이 실행되고 있다고 가정합시다.
+예를 들어 아래 2개의 앱이 실행되고 있고, S2020에 140을 설정했다고 가정합시다.
 
 * Xpanel : Ctrl+3 \(활성상태\)
 * RoboCare : Ctrl+4
 
-현재 화면 전면에 Xpanel이 실행되고 있다면, sw960 값은 3입니다.
+현재 화면 전면에 Xpanel이 실행되고 있다면, S2022의 값은 3입니다.
 
-sw961에 4를 설정하면 sw962의 값은 RoboCare의 상태입니다. RoboCare는 현재 실행되고 있지만 비활성상태이므로 sw962는 2입니다.
+S2024에 4를 설정하면 S2026의 값은 RoboCare의 상태입니다. RoboCare는 현재 실행되고 있지만 비활성상태이므로 S2026은 2입니다.
 
-sw962의 값이 1이 아닌 값일 때, 이를 1로 변경하면 Xpanel이 백그라운드로 비활성화되고 RoboCare가 전면으로 활성화됩니다. 이 값을 9로 변경하면 RoboCare는 강제종료됩니다.
+S2028의 값이 1이 아닌 값일 때, 이를 1로 변경하면 Xpanel이 백그라운드로 비활성화되고 RoboCare가 전면으로 활성화됩니다. 이 값을 9로 변경하면 RoboCare는 강제종료됩니다.
