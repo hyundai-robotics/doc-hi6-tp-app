@@ -1,8 +1,9 @@
 ﻿{
     "langCode": "ko",
-    "series": "현대로봇 Hi6 제어기 기능설명서",
-    "title": "Teach Pendant 앱(App)",
-    "publisher": "현대로보틱스",
+    "series": "현대로봇 Hi6 제어기",
+    "title": "기능설명서 - Teach Pendant 앱(App)",
+    "publisher": "HD현대로보틱스",
+    "manualReleaseDate": "2024.10.27",
     "tocTitle": "목차",
     "tocTitleElements": "[ \"h1\", \"h2\" ]"
 }
