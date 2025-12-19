@@ -7,7 +7,7 @@ The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and con
 [3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
 
-This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the Hi6 controller.
+This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.
 
 
 | S offset| field  |                   description                    | type |

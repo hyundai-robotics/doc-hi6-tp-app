@@ -1,4 +1,4 @@
-﻿# Hi6 Robot Controller Function Manual - Teach Pendant App
+﻿# ${cont_model} Robot Controller Function Manual - Teach Pendant App
 
 {% hint style="warning" %}
 The information presented in this manual is the property of HD Hyundai Robotics.
@@ -19,19 +19,19 @@ HD Hyundai Robotics reserves the right to modify this document without prior not
 
 In order to understand this manual well, you must have the following knowledge.
 
-- [Basic Operation of Hyundai Hi6 Robot Controller](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/README)
+- [Basic Operation of Hyundai ${cont_model} Robot Controller](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/README)
 
 <br>
 
-Various settings, teaching, playback, and various service functions of the robot are installed as basic functions of the Hi6 controller. Additional functions that are not included in the basic function or functions optimized for a specific purpose are separately installed as add-on software, which is called the Hi6 app, and the software installed and executed on the Teach Pendant is classified as the Teach Pendant app.
+Various settings, teaching, playback, and various service functions of the robot are installed as basic functions of the ${cont_model} controller. Additional functions that are not included in the basic function or functions optimized for a specific purpose are separately installed as add-on software, which is called the ${cont_model} app, and the software installed and executed on the Teach Pendant is classified as the Teach Pendant app.
 # 2. Installation
 # 2.1 Preparation
 
-The Hi6 app installation file consists of several files, as shown in the example below.
+The ${cont_model} app installation file consists of several files, as shown in the example below.
 Let me take Cimon Xpanel, the Teach Pendant app, as an example.
-Copy the installation folder of the Hi6 app to the path below in USB memory.
+Copy the installation folder of the ${cont_model} app to the path below in USB memory.
 
-/hi6/apps/
+/${cont_model}/apps/
 
 ![](../_assets/2_1_folder.png)
 
@@ -47,7 +47,7 @@ Copy the installation folder of the Hi6 app to the path below in USB memory.
 
 <br/>
 
-4) Click the `[F4:run]` button to run the hi6 installer.
+4) Click the `[F4:run]` button to run the ${cont_model} installer.
 
 ![](../_assets/2_3_installer.png)
 
@@ -82,7 +82,7 @@ In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` an
 
 <br/>
 
-If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the Hi6 controller boots.
+If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the ${cont_model} controller boots.
 
 If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.
 # 3.2. execution and switching
@@ -121,7 +121,7 @@ The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and con
 [3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
 
-This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the Hi6 controller.
+This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.
 
 
 | S offset| field  |                   description                    | type |

@@ -13,6 +13,6 @@ In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` an
 
 <br/>
 
-If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the Hi6 controller boots.
+If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the ${cont_model} controller boots.
 
 If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.

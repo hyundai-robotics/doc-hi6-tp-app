@@ -1,4 +1,4 @@
-﻿# Hi6 Robot Controller Function Manual - Teach Pendant App
+﻿# ${cont_model} Robot Controller Function Manual - Teach Pendant App
 
 {% hint style="warning" %}
 The information presented in this manual is the property of HD Hyundai Robotics.

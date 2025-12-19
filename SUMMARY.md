@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [Hi6 Robot Controller Function Manual - Teach Pendant App](README.md)
+* [${cont_model} Robot Controller Function Manual - Teach Pendant App](README.md)
 * [1. Overview](1-intro/README.md)
 
 * [2. Installation](2-installation/README.md)
