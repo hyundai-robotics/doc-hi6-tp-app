@@ -1,4 +1,4 @@
-﻿# Hi6 로봇제어기 기능설명서 - Teach Pendant 앱(App)
+﻿# ${cont_model} 로봇제어기 기능설명서 - Teach Pendant 앱(App)
 
 {% hint style="warning" %}
 본 제품 설명서에서 제공되는 정보는 HD현대로보틱스의 자산입니다.

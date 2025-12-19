@@ -10,7 +10,7 @@
 
 <br/>
 
-4) \[F4: run\] 버튼을 클릭해 hi6 installer를 실행합니다.
+4) \[F4: run\] 버튼을 클릭해 ${cont_model} installer를 실행합니다.
 
 ![](../_assets/2_3_installer.png)
 

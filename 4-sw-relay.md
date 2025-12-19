@@ -6,7 +6,7 @@
 
 [3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
-이를 이용하면 Hi6제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
+이를 이용하면 ${cont_model}제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
 
 
 | S offset| field  | 설명                                              | type |

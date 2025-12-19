@@ -13,6 +13,6 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 
 <br/>
 
-\[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, Hi6 제어기가 부팅할 때 앱이 자동으로 실행합니다.
+\[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, ${cont_model} 제어기가 부팅할 때 앱이 자동으로 실행합니다.
 
 다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.

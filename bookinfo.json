@@ -5,5 +5,8 @@
     "publisher": "HD현대로보틱스",
     "manualReleaseDate": "2024.10.27",
     "tocTitle": "목차",
-    "tocTitleElements": "[ \"h1\", \"h2\" ]"
+    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "variables": {
+        "cont_model": "Hi6"
+    }
 }
