@@ -1,4 +1,6 @@
-﻿# ${cont_model} 로봇제어기 기능설명서 - Teach Pendant 앱(App)
+﻿
+[__SOURCE](README.md)
+# ${cont_model} 로봇제어기 기능설명서 - Teach Pendant 앱(App)
 
 {% hint style="warning" %}
 본 제품 설명서에서 제공되는 정보는 HD현대로보틱스의 자산입니다.
@@ -13,6 +15,8 @@ HD현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 �
 
 **Copyright ⓒ 2022 by HD Hyundai Robotics**
 {% endhint %}
+
+[__SOURCE](1-intro/README.md)
 # 1. 개요
 
 본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
@@ -22,8 +26,12 @@ HD현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 �
 
 
 로봇의 각종 설정과 교시, 재생, 다양한 서비스 기능들은 ${cont_model} 제어기의 기본 기능으로서 탑재되어 있습니다. 기본 기능에 포함되지 않은 부가적인 기능들, 혹은 특정 용도에 최적화된 기능들이 별도로 설치하는 부가 소프트웨어로 제공되기도 하는데 이를 ${cont_model} 앱(App)이라고 하며, 이 중 티치펜던트에 설치되어 실행되는 소프트웨어를 Teach Pendant 앱으로 분류합니다. 
+
+[__SOURCE](2-installation/README.md)
 # 2. 설치
 
+
+[__SOURCE](2-installation/1-preparation.md)
 # 2.1 준비
 
 ${cont_model} 앱의 설치파일은 아래의 예와 같이 몇 개의 파일로 구성되어 있습니다.
@@ -36,6 +44,8 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 
 ![](../_assets/2_1_folder.png)
 
+
+[__SOURCE](2-installation/2-install.md)
 # 2.2 설치
 
 1) 준비한 USB 메모리를 티치펜던트에 장착합니다.
@@ -67,8 +77,12 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 ![](../_assets/2_4_installed.png)
 
 <br/>        
+
+[__SOURCE](3-config-run/README.md)
 # 3. 설정과 실행
 
+
+[__SOURCE](3-config-run/1-hotkey-startup.md)
 # 3.1 단축키(hotkey)와 실행방식
 
 자주 사용하는 앱에는 단축키를 할당하면, 어떤 화면에서든 키조작만으로 실행할 수 있어 편리합니다.
@@ -87,6 +101,8 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 \[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, ${cont_model} 제어기가 부팅할 때 앱이 자동으로 실행합니다.
 
 다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.
+
+[__SOURCE](3-config-run/2-run-switch.md)
 # 3.2. 실행과 전환
 
 앱을 선택한 후, \[F4:run\] 버튼을 클릭하면, 해당 앱이 실행됩니다.
@@ -114,6 +130,8 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 ![](../_assets/3_3_exit.png)
 
 <br/>
+
+[__SOURCE](4-sw-relay.md)
 # 4. S 릴레이에 의한 모니터링과 제어
 
 내장 PLC의 S 릴레이에는 앱 실행상태를 모니터링하고 제어하는 GETSET_TP_APP 서비스가 있습니다. <br>
