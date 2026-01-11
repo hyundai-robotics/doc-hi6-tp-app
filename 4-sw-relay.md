@@ -2,9 +2,9 @@
 
 The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
 
-[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/README)
+[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/README)
 
-[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
+[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
 
 This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.

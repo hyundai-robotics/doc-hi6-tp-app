@@ -2,7 +2,7 @@
 
 In order to understand this manual well, you must have the following knowledge.
 
-- [Basic Operation of Hyundai ${cont_model} Robot Controller](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/README)
+- [${cont_model} Controller Operation Manual - TP630](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/README?cont_model=${cont_model})
 
 <br>
 

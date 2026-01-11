@@ -2,28 +2,12 @@
 [__SOURCE](README.md)
 # ${cont_model} Robot Controller Function Manual - Teach Pendant App
 
-{% hint style="warning" %}
-The information presented in this manual is the property of HD Hyundai Robotics.
-
-The manual may neither be copied, in part or in full, nor redistributed without prior written consent from HD Hyundai Robotics.
-
-It may neither be provided to any third party nor used for any other purposes.
-
-
-
-HD Hyundai Robotics reserves the right to modify this document without prior notification.
-
-
-
-**Copyright ⓒ 2024 by HD Hyundai Robotics**
-{% endhint %}
-
 [__SOURCE](1-intro/README.md)
 # 1. Overview
 
 In order to understand this manual well, you must have the following knowledge.
 
-- [Basic Operation of Hyundai ${cont_model} Robot Controller](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/README)
+- [${cont_model} Controller Operation Manual - TP630](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/README?cont_model=${cont_model})
 
 <br>
 
@@ -134,9 +118,9 @@ To exit an app, use the exit feature of that app, for example, Xpanel has a exit
 
 The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
 
-[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/README)
+[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/README)
 
-[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/3-relay/4-sw-relay/6-slot-tp-app)
+[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
 
 This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.
