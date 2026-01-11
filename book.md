@@ -2,19 +2,6 @@
 [__SOURCE](README.md)
 # ${cont_model} 로봇제어기 기능설명서 - Teach Pendant 앱(App)
 
-{% hint style="warning" %}
-본 제품 설명서에서 제공되는 정보는 HD현대로보틱스의 자산입니다.
-
-HD현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
-
-
-
-본 설명서는 사전 예고 없이 변경될 수 있습니다.
-
-
-
-**Copyright ⓒ 2022 by HD Hyundai Robotics**
-{% endhint %}
 
 [__SOURCE](1-intro/README.md)
 # 1. 개요
@@ -136,9 +123,9 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 
 내장 PLC의 S 릴레이에는 앱 실행상태를 모니터링하고 제어하는 GETSET_TP_APP 서비스가 있습니다. <br>
 
-[3.4 S 릴레이](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/README)
+[3.4 S 릴레이](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/3-relay/4-sw-relay/README)
 
-[3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/3-relay/4-sw-relay/6-slot-tp-app)
+[3.4.6 S 릴레이 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/3-relay/4-sw-relay/6-slot-tp-app)
 <br><br>
 이를 이용하면 ${cont_model}제어기 외부에서 I/O 신호를 통해 TP 앱의 실행상태를 확인하거나 원격 실행, 전환을 할 수 있습니다.
 
