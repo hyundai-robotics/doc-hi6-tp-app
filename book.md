@@ -1,4 +1,6 @@
-﻿# ${cont_model} Robot Controller Function Manual - Teach Pendant App
+﻿
+[__SOURCE](README.md)
+# ${cont_model} Robot Controller Function Manual - Teach Pendant App
 
 {% hint style="warning" %}
 The information presented in this manual is the property of HD Hyundai Robotics.
@@ -15,6 +17,8 @@ HD Hyundai Robotics reserves the right to modify this document without prior not
 
 **Copyright ⓒ 2024 by HD Hyundai Robotics**
 {% endhint %}
+
+[__SOURCE](1-intro/README.md)
 # 1. Overview
 
 In order to understand this manual well, you must have the following knowledge.
@@ -24,7 +28,11 @@ In order to understand this manual well, you must have the following knowledge.
 <br>
 
 Various settings, teaching, playback, and various service functions of the robot are installed as basic functions of the ${cont_model} controller. Additional functions that are not included in the basic function or functions optimized for a specific purpose are separately installed as add-on software, which is called the ${cont_model} app, and the software installed and executed on the Teach Pendant is classified as the Teach Pendant app.
+
+[__SOURCE](2-installation/README.md)
 # 2. Installation
+
+[__SOURCE](2-installation/1-preparation.md)
 # 2.1 Preparation
 
 The ${cont_model} app installation file consists of several files, as shown in the example below.
@@ -35,6 +43,8 @@ Copy the installation folder of the ${cont_model} app to the path below in USB m
 
 ![](../_assets/2_1_folder.png)
 
+
+[__SOURCE](2-installation/2-install.md)
 # 2.2 Install
 
 1) Install the prepared USB memory into the Teach Pendant.
@@ -66,7 +76,11 @@ Copy the installation folder of the ${cont_model} app to the path below in USB m
 ![](../_assets/2_4_installed.png)
 
 <br/>
+
+[__SOURCE](3-config-run/README.md)
 # 3. Configuration and run
+
+[__SOURCE](3-config-run/1-hotkey-startup.md)
 # 3.1 hotkey and execution way
 
 If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
@@ -85,6 +99,8 @@ In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` an
 If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the ${cont_model} controller boots.
 
 If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.
+
+[__SOURCE](3-config-run/2-run-switch.md)
 # 3.2. execution and switching
 
 After selecting the app, click the `[F4:run]` button to launch the app.
@@ -112,6 +128,8 @@ To exit an app, use the exit feature of that app, for example, Xpanel has a exit
 ![](../_assets/3_3_exit.png)
 
 <br/>
+
+[__SOURCE](4-sw-relay.md)
 # 4. Monitoring and control by S relay
 
 The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
