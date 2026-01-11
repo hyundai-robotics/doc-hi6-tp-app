@@ -1,9 +1,8 @@
 ﻿# 1. 개요
 
 본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
-- 현대 ${cont_model} 로봇제어기의 기본 조작법
 
-
+- [${cont_model} 제어기 조작 설명서 - TP630](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/README?cont_model=${cont_model})
 
 
 로봇의 각종 설정과 교시, 재생, 다양한 서비스 기능들은 ${cont_model} 제어기의 기본 기능으로서 탑재되어 있습니다. 기본 기능에 포함되지 않은 부가적인 기능들, 혹은 특정 용도에 최적화된 기능들이 별도로 설치하는 부가 소프트웨어로 제공되기도 하는데 이를 ${cont_model} 앱(App)이라고 하며, 이 중 티치펜던트에 설치되어 실행되는 소프트웨어를 Teach Pendant 앱으로 분류합니다. 
