@@ -1,6 +1,6 @@
 ﻿
 [__SOURCE](README.md)
-# ${cont_model} Robot Controller Function Manual - Teach Pendant App
+# ${cont_model} Controller Function Manual - Teach Pendant App
 
 [__SOURCE](1-intro/README.md)
 # 1. Overview

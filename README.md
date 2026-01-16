@@ -1,1 +1,1 @@
-﻿# ${cont_model} Robot Controller Function Manual - Teach Pendant App
+﻿# ${cont_model} Controller Function Manual - Teach Pendant App
