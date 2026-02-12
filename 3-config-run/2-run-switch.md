@@ -20,7 +20,7 @@ Once again, pressing the `[SHIFT+R..]` key will display the app switch dialog bo
 
 <br/>
 
-To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Diagnostics` screen.
+To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Main` or `Diagnostics` screen.
 
 ![](../_assets/3_3_exit.png)
 
