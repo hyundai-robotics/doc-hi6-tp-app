@@ -3,6 +3,11 @@
 # ${cont_model} 제어기 기능설명서 - Teach Pendant 앱(App)
 
 
+[__SOURCE](0-about-this-manual/precautions.md)
+# 사전 주의사항
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+
 [__SOURCE](1-intro/README.md)
 # 1. 개요
 
@@ -111,7 +116,7 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 
 <br/>
 
-앱을 종료하려면 해당 앱의 종료 기능을 사용하십시오. 예를 들어 Xpanel은 '진단' 화면의 우상단에 종료 버튼이 있습니다.
+앱을 종료하려면 해당 앱의 종료 기능을 사용하십시오. 예를 들어 Xpanel은 `메인화면` 혹은 `진단` 화면의 우상단에 종료 버튼이 있습니다.
 
 ![](../_assets/3_3_exit.png)
 
