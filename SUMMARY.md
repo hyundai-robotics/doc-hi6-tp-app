@@ -1,6 +1,9 @@
 ﻿# Table of contents
 
 * [${cont_model} Controller Function Manual - Teach Pendant App](README.md)
+
+* [Precautions](0-about-this-manual/precautions.md)
+
 * [1. Overview](1-intro/README.md)
 
 * [2. Installation](2-installation/README.md)

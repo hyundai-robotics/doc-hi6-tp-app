@@ -2,6 +2,11 @@
 [__SOURCE](README.md)
 # ${cont_model} Controller Function Manual - Teach Pendant App
 
+[__SOURCE](0-about-this-manual/precautions.md)
+# Precautions
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+
 [__SOURCE](1-intro/README.md)
 # 1. Overview
 
@@ -107,7 +112,7 @@ Once again, pressing the `[SHIFT+R..]` key will display the app switch dialog bo
 
 <br/>
 
-To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Diagnostics` screen.
+To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Main` or `Diagnostics` screen.
 
 ![](../_assets/3_3_exit.png)
 
