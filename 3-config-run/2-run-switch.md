@@ -1,26 +1,26 @@
-﻿# 3.2. execution and switching
+﻿# 3.2. 执行和切换
 
-After selecting the app, click the `[F4:run]` button to launch the app.
+选择应用后，点击`[F4:运行] ([F4:run])`按钮以启动应用。
 
 ![](../_assets/3_2_run.png)
 
 <br/>
 
-Press and hold the `[SHIFT+R..]` key for about a second to switch to the TeachPendant main screen without shutting down the app.
+按住`[SHIFT+R..]`键约一秒钟，以在不关闭应用的情况下切换到TeachPendant主屏幕。
 
-On this screen, you see the ![](.../_assets/3_switch_c.png) icon on the right side of the top title bar, which means there is more than one app running in the background.
+在此屏幕上，您会看到顶部标题栏右侧的![](.../_assets/3_switch_c.png)图标，这意味着后台有多个应用在运行。
 
 ![](../_assets/3_3_switch_b.png)
 
 <br/>
 
-Once again, pressing the `[SHIFT+R..]` key will display the app switch dialog box, select the icon with the left/right arrow and press the `[ENTER]` key to bring the app to the front.
+再次按`[SHIFT+R..]`键将显示应用切换对话框，选择具有左右箭头的图标并按`[ENTER]`键将应用置于前面。
 
 ![](../_assets/3_3_switch_d.png)
 
 <br/>
 
-To exit an app, use the exit feature of that app, for example, Xpanel has a exit button in the upper right corner of the `Main` or `Diagnostics` screen.
+要退出应用，请使用该应用的退出功能，例如，Xpanel在`主 (Main)`或`Diagnostics`屏幕的右上角有一个退出按钮。
 
 ![](../_assets/3_3_exit.png)
 

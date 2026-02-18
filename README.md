@@ -1,1 +1,1 @@
-﻿# ${cont_model} Controller Function Manual - Teach Pendant App
+﻿# ${cont_model} 控制器功能手册 - 教学挂件应用

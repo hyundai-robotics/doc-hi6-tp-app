@@ -1,18 +1,18 @@
-﻿# 3.1 hotkey and execution way
+﻿# 3.1 热键和执行方式
 
-If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
-Select the app and click the `[F2:hotkey]` button.
+如果您为常用应用程序分配了热键，那么在任何屏幕上只需按下键即可执行，这非常方便。
+选择应用程序并点击`[F2:快捷键] ([F2:hotkey])`按钮。
 
 ![](../_assets/3_1_hotkey.png)
 
 <br/>
 
-In the hotkey setting dialog box, press the desired `Ctrl+1` through `Ctrl+9` and complete the setting with the `[ENTER]` key.
+在热键设置对话框中，按下所需的`Ctrl+1`至`Ctrl+9`，并通过`[ENTER]`键完成设置。
 
 ![](../_assets/3_1_hotkey_b.png)
 
 <br/>
 
-If you change the startup column to boot by clicking the `[F3:startup]` toggle button, the app will automatically run when the ${cont_model} controller boots.
+如果您通过点击`[F3:启动] ([F3:startup])`切换按钮将启动列更改为启动，则在${cont_model}控制器启动时，该应用程序将自动运行。
 
-If you click the `[F3:startup]` button once again, the startup column changes to manual and auto-run is disabled.
+如果您再次点击`[F3:启动] ([F3:startup])`按钮，启动列将更改为手动，自动运行被禁用。
