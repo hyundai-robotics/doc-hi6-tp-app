@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # Precautions
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+{% include file="en/precautions.md" %}
 
 [__SOURCE](1-intro/README.md)
 # 1. Overview
@@ -123,9 +123,9 @@ To exit an app, use the exit feature of that app, for example, Xpanel has a exit
 
 The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
 
-[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/README)
+[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/README?cont_model=${cont_model})
 
-[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/6-slot-tp-app)
+[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/6-slot-tp-app?cont_model=${cont_model})
 <br><br>
 
 This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.
