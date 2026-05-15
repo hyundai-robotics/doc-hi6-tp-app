@@ -33,12 +33,7 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 
 /hi6/apps/
 
-<div style="max-height:100px">
-
-![](../_assets/2_1_folder.png)
-
-</div>
-
+<img src="../_assets/2_1_folder.png" alt="폴더 구조 스크린샷" style="max-height: 250px;">
 
 [__SOURCE](2-installation/2-install.md)
 # 2.2 설치
@@ -84,7 +79,7 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 앱을 선택한 후, \[F2:hotkey\] 버튼을 클릭합니다.
 
 
-![](../_assets/3_1_hotkey.png)
+<img src="../_assets/3_1_hotkey.png" alt="" style="max-height: 350px;">
 
 
 <br/>
@@ -99,6 +94,7 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 \[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, ${cont_model} 제어기가 부팅할 때 앱이 자동으로 실행합니다.
 
 다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.
+
 
 [__SOURCE](3-config-run/2-run-switch.md)
 # 3.2. 실행과 전환

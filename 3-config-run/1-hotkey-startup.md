@@ -4,7 +4,7 @@
 앱을 선택한 후, \[F2:hotkey\] 버튼을 클릭합니다.
 
 
-![](../_assets/3_1_hotkey.png)
+<img src="../_assets/3_1_hotkey.png" alt="" style="max-height: 350px;">
 
 
 <br/>
@@ -19,3 +19,4 @@ hotkey setting 대화상자에서 원하는 Ctrl+1 ~ Ctrl+9 중 원하는 단축
 \[F3:startup\] 버튼을 클릭하여 startup 열을 boot로 변경하면, ${cont_model} 제어기가 부팅할 때 앱이 자동으로 실행합니다.
 
 다시 한번 \[F3:startup\] 버튼을 클릭하면 startup 열이 manual로 변경되면서 자동실행이 해제됩니다.
+
