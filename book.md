@@ -33,7 +33,11 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 
 /hi6/apps/
 
+<div style="max-height:100px">
+
 ![](../_assets/2_1_folder.png)
+
+</div>
 
 
 [__SOURCE](2-installation/2-install.md)
