@@ -10,7 +10,7 @@
 
 <br/>
 
-4) Click the `[F4:run]` button to run the ${cont_model} installer.
+4) Click the `[F4:run]` button to run the App installer.
 
 ![](../_assets/2_3_installer.png)
 

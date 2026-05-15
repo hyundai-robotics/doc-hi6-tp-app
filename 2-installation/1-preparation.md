@@ -4,7 +4,7 @@ The ${cont_model} app installation file consists of several files, as shown in t
 Let me take Cimon Xpanel, the Teach Pendant app, as an example.
 Copy the installation folder of the ${cont_model} app to the path below in USB memory.
 
-/${cont_model}/apps/
+/hi6/apps/
 
 ![](../_assets/2_1_folder.png)
 
