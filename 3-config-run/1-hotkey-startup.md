@@ -3,7 +3,8 @@
 If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
 Select the app and click the `[F2:hotkey]` button.
 
-![](../_assets/3_1_hotkey.png)
+
+<img src="../_assets/3_1_hotkey.png" alt="" style="max-height: 350px;">
 
 <br/>
 

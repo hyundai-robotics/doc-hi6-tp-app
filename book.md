@@ -30,8 +30,7 @@ Copy the installation folder of the ${cont_model} app to the path below in USB m
 
 /hi6/apps/
 
-![](../_assets/2_1_folder.png)
-
+<img src="../_assets/2_1_folder.png" alt="폴더 구조 스크린샷" style="max-height: 250px;">
 
 [__SOURCE](2-installation/2-install.md)
 # 2.2 Install
@@ -75,7 +74,8 @@ Copy the installation folder of the ${cont_model} app to the path below in USB m
 If you assign a hotkey to a frequently used app, it is convenient because it can be executed only by pressing key on any screen.
 Select the app and click the `[F2:hotkey]` button.
 
-![](../_assets/3_1_hotkey.png)
+
+<img src="../_assets/3_1_hotkey.png" alt="" style="max-height: 350px;">
 
 <br/>
 

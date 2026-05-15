@@ -6,5 +6,4 @@ Copy the installation folder of the ${cont_model} app to the path below in USB m
 
 /hi6/apps/
 
-![](../_assets/2_1_folder.png)
-
+<img src="../_assets/2_1_folder.png" alt="폴더 구조 스크린샷" style="max-height: 250px;">
