@@ -31,7 +31,7 @@ ${cont_model} 앱의 설치파일은 아래의 예와 같이 몇 개의 파일�
 
 ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해 넣으십시오. 
 
-/${cont_model}/apps/
+/hi6/apps/
 
 ![](../_assets/2_1_folder.png)
 
@@ -49,7 +49,7 @@ ${cont_model} 앱의 설치 폴더를 USB메모리의 아래 경로에 복사해
 
 <br/>
 
-4) \[F4: run\] 버튼을 클릭해 ${cont_model} installer를 실행합니다.
+4) \[F4: run\] 버튼을 클릭해 App installer를 실행합니다.
 
 ![](../_assets/2_3_installer.png)
 
