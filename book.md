@@ -100,7 +100,7 @@ After selecting the app, click the `[F4:run]` button to launch the app.
 
 Press and hold the `[SHIFT+R..]` key for about a second to switch to the TeachPendant main screen without shutting down the app.
 
-On this screen, you see the ![](.../_assets/3_switch_c.png) icon on the right side of the top title bar, which means there is more than one app running in the background.
+On this screen, you see the ![](../_assets/3_3_switch_c.png) icon on the right side of the top title bar, which means there is more than one app running in the background.
 
 ![](../_assets/3_3_switch_b.png)
 
