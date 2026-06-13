@@ -1,7 +1,9 @@
 ﻿# Table of contents
 
 * [${cont_model} 控制器功能手册 - 教学挂件应用](README.md)
-* [注意事项](0-about-this-manual/precautions.md)
+* [关于手册](0-about-this-manual/README.md)
+  * [注意事项](0-about-this-manual/precautions.md)
+  * [安全注意事项](0-about-this-manual/safety-notice.md)
 * [1. 概述](1-intro/README.md)
 * [2. 安装](2-installation/README.md)
   * [2.1 准备](2-installation/1-preparation.md)
