@@ -1,30 +1,30 @@
-﻿# 2.2 Install
+﻿# 2.2 安装
 
-1) Install the prepared USB memory into the Teach Pendant.
+1) 将准备好的 USB 存储器插入教导挂件。
 
-2) Select the `Service - 10:App` menu.
+2) 选择 `服务 - 10:应用程序(App) (Service - 10:App)` 菜单。
 
-3) Click the `[F1:Location]` button until the title bar becomes `App - USB`.
+3) 点击 `[F1:Location]` 按钮，直到标题栏变为 `应用程序(App) - USB (App - USB)`。
 
 ![](../_assets/2_2_app.png)
 
 <br/>
 
-4) Click the `[F4:run]` button to run the App installer.
+4) 点击 `[F4:运行时间] ([F4:run])` 按钮以运行应用程序安装程序。
 
 ![](../_assets/2_3_installer.png)
 
 <br/>
 
-5) Click the `[START]` button to proceed with the installation. If it says Completed at the bottom of the log, the installation has completed successfully.
+5) 点击 `[START]` 按钮以继续安装。如果日志底部显示已完成，则安装成功完成。
 
 ![](../_assets/2_3_installer_b.png)
 
 <br/>
 
-6) Click the `[EXIT]` button to exit.
+6) 点击 `[EXIT]` 按钮以退出。
 
-7) Click the `[F1:Location]` button until the title bar becomes `App - TP`, you can see the new Xpanel item.
+7) 点击 `[F1:Location]` 按钮，直到标题栏变为 `应用程序(App) - TP (App - TP)`，您可以看到新的 Xpanel 项目。
 
 ![](../_assets/2_4_installed.png)
 

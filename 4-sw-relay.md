@@ -1,32 +1,31 @@
-﻿# 4. Monitoring and control by S relay
+﻿# 4. 通过 S 继电器的监控和控制
 
-The S Relay of the embedded PLC has the GETSET_TP_APP service to monitor and control the execution status of the app. <br>
+嵌入式 PLC 的 S 继电器具有 GETSET_TP_APP 服务，以监控和控制应用程序的执行状态。 <br>
 
-[3.4 S relays](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/README?cont_model=${cont_model})
+[3.4 S 继电器](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/3-relay/4-sw-relay/README?cont_model=${cont_model})
 
-[3.4.6 S relay - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/3-relay/4-sw-relay/6-slot-tp-app?cont_model=${cont_model})
+[3.4.6 S 继电器 - TP_APP](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/3-relay/4-sw-relay/6-slot-tp-app?cont_model=${cont_model})
 <br><br>
 
-This allows you to check the execution status of the TP app or to run and switch remotely through the I/O signal from outside the ${cont_model} controller.
+这使您能够检查 TP 应用程序的执行状态，或通过来自 ${cont_model} 控制器外部的 I/O 信号远程运行和切换。
 
-
-| S offset| field  |                   description                    | type |
+| S 偏移量| 字段  |                   描述                    | 类型 |
 | ------- | ------ | ------------------------------------------------ | ---- |
-| 0       | command| GETSET_TP_APP (140)                              | s2   |
-| 2       | get    | hot-key Number for current TP app (1 to 9)  | s2   |
-| 4       | set    | hot-key number (1 to 9) of the TP app to read or control the state | s2 |
-| 6       | get    | status of target TP app Current value<br> (-1=none, 0=not running, 1=active, 2=inactive) | s2  |
-| 8       | set    | control target TP app status.<br> (0: No action, 1: Active, 2: Inactive, 8: Run, 9: Forced shutdown)<br>* This is done only once every time the value changes. | s2 |
+| 0       | 命令| GETSET_TP_APP (140)                              | s2   |
+| 2       | 获取    | 当前 TP 应用的热键编号 (1 到 9)  | s2   |
+| 4       | 设置    | 要读取或控制状态的 TP 应用的热键编号 (1 到 9) | s2 |
+| 6       | 获取    | 目标 TP 应用当前值的状态<br> (-1=无, 0=未运行, 1=激活, 2=非激活) | s2  |
+| 8       | 设置    | 控制目标 TP 应用的状态。<br> (0: 无操作, 1: 激活, 2: 非激活, 8: 运行, 9: 强制关闭)<br>* 该操作仅在每次值变化时执行一次。 | s2 |
 
 <hr/><br/><br/>
 
-For example, let's say the below 2 apps are running, and set 140 in `S2020`.
+例如，假设下面的 2 个应用程序正在运行，并在 `S2020` 中设置 140。
 
-* `Xpanel` : `Ctrl+3` (Active state)
+* `Xpanel` : `Ctrl+3` (激活状态)
 * `RoboCare` : `Ctrl+4`
 
-If `Xpanel` is currently running on the front of the screen, the value of `S2022` is 3.
+如果 `Xpanel` 当前在屏幕前运行，则 `S2022` 的值为 3。
 
-If I set 4 in `S2024`, the value of `S2026` is the state of `RoboCare`. `RoboCare` is currently running but is inactive, so `S2026` is 2.
+如果我在 `S2024` 中设置 4，则 `S2026` 的值为 `RoboCare` 的状态。 `RoboCare` 目前正在运行但处于非激活状态，因此 `S2026` 为 2。
 
-If the value of `S2028` is a non-1 value, changing it to 1 disables `Xpanel` to the background and `RoboCare` to the front. Changing this value to 9 forces `RoboCare` to shut down.
+如果 `S2028` 的值不是 1，将其更改为 1 将 `Xpanel` 禁用到后台，并将 `RoboCare` 移到前台。将此值更改为 9 将强制 `RoboCare` 关闭。
